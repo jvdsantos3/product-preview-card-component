@@ -88,6 +88,9 @@
       font-size: 1.4rem;
       font-weight: 700;
 
+      &:hover {
+        background: $deep-aquamarine-hover;
+      }
     }
   }
 

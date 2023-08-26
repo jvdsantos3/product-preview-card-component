@@ -19,6 +19,10 @@ body {
   align-items: center;
 }
 
+button {
+  cursor: pointer;
+}
+
 #card__container {
   max-width: 34.3rem;
   background: #FFFFFF;
@@ -94,6 +98,9 @@ body {
   color: #FFFFFF;
   font-size: 1.4rem;
   font-weight: 700;
+}
+#card__container .card-footer button:hover {
+  background: #1A4032;
 }
 @media (min-width: 769px) {
   #card__container {
